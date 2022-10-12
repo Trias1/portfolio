@@ -41,6 +41,28 @@ const Services = () => {
               <BiCheck className='service__list-icon'/>
               <p>Creating a Website-based Wedding Application</p>
             </li>
+            
+          </ul>
+        </article>
+        <article className="service">
+          <div className="service__head">
+            <h3>Backend Website Developer</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Creating a Backend Website-based Coffe Shop</p>
+            </li>
+            {/* <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Creating a Website-based Goods Workshop POS Application</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Creating a Website-based Wedding Application</p>
+            </li> */}
+            
           </ul>
         </article>
         {/* END OF Website */}

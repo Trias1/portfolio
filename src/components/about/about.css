@@ -5,30 +5,29 @@
 }
 
 .about__me {
-    width: 100%;
+    width: 90%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
+    /* background: linear-gradient(
+        50deg,
         transparent, 
         var(--color-primary), 
         transparent
-        );
+        ); */
     display: grid;
     place-items: center;
-
 }
 
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    width: 90%;
     transition: var(--transition);
 }
 
-.about__me-image:hover {
+/* .about__me-image:hover {
     transform: rotate(0);
-}
+} */
 
 .about__cards {
     display: grid;
@@ -80,7 +79,7 @@
 
     .about__me {
         width: 50%;
-        margin: 2rem auto 4rem;
+        margin: -2rem auto 4rem;
     }
 
     .about__content p {
