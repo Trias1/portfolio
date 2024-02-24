@@ -5,7 +5,7 @@ import Job from "./Job";
 function JobExperience() {
   return (
     <section id="jobexperience">
-      <h5 className="experience__name-ha">Job Experience</h5>
+      <h2 className="experience__name-ha">Job Experience</h2>
       <Job/>
     </section>
   );
