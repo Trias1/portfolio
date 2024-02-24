@@ -71,24 +71,73 @@ nav a.active {
     }
 }
 
+@media screen and (max-width: 550px) {
+
+    nav {
+        left: 17%;
+    }
+}
+
 @media screen and (max-width: 500px) {
+
+    nav {
+        left: 16%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        left: 14%;
+    }
+}
+
+@media screen and (max-width: 460px) {
 
     nav {
         left: 12%;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
 
     nav {
-        left: 4%;
+        left: 9%;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
 
     nav {
-        left: 2%;
+        left: 8%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    nav {
+        left: 7%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    nav {
+        left: 6%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    nav {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    nav {
+        left: 4%;
     }
 }
 
