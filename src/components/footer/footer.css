@@ -73,7 +73,7 @@ footer a {
 
 @media screen and (max-width: 540px) {
     footer{
-        width: 110%;
+        width: 100%;
         background: var(--color-primary);
         text-align: center;
         font-size: 0.9rem;
@@ -83,7 +83,7 @@ footer a {
 
 @media screen and (max-width: 390px) {
     footer{
-        width: 110%;
+        width: 100%;
         background: var(--color-primary);
         text-align: center;
         font-size: 0.9rem;

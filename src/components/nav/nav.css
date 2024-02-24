@@ -67,20 +67,29 @@ nav a.active {
 @media screen and (max-width: 600px) {
 
     nav {
-        left: 8rem;
-
+        left: 18%;
     }
-    
-    /* nav a {
-        background: transparent;
-        padding: 0.9rem;
-        border-radius: 50%;
-        display: flex;
-        color: var(--color-light);
-        font-size: 1rem;
-        transition: var(--transition);
-    } */
-    
+}
+
+@media screen and (max-width: 500px) {
+
+    nav {
+        left: 12%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    nav {
+        left: 4%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    nav {
+        left: 2%;
+    }
 }
 
 /* @media screen and (max-width: 350px) {
@@ -145,10 +154,10 @@ nav a.active {
     
 /* }* */
 
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
 
     nav {
-left: 1rem;
+        left: 5%;
     }
     
     nav a {
@@ -161,12 +170,12 @@ left: 1rem;
         transition: var(--transition);
     }
     
-}
+} */
  
-@media screen and (max-width: 412px) {
+/* @media screen and (max-width: 412px) {
 
     nav {
-        left: 3rem;
+        left: 5%;
     }
     
     nav a {
@@ -184,7 +193,7 @@ left: 1rem;
 @media screen and (max-width: 414px) {
 
     nav {
-        left: 3rem;
+        left: 5%;
     }
     
     nav a {
@@ -202,7 +211,7 @@ left: 1rem;
 @media screen and (max-width: 360px) {
 
     nav {
-        left: 1.5rem;
+        left: 5%;
     }
     
     nav a {
@@ -215,5 +224,5 @@ left: 1rem;
         transition: var(--transition);
     }
     
-}
+} */
 
