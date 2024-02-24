@@ -14,6 +14,12 @@ function Success(){
 
 const portfolioData = [
   {
+    title: "Wedding Website",
+    imageSrc: IMG3,
+    githubLink: "https://github.com/Trias1/wed-finnaly",
+    liveDemoLink: "https://wed-finnaly.vercel.app/",
+  },
+  {
     title: "Mobile Programming",
     imageSrc: IMG2,
     githubLink: "https://github.com/Trias1/android",
@@ -22,12 +28,6 @@ const portfolioData = [
     title: "POS WebSite FotoCopy",
     imageSrc: IMG1,
     githubLink: "https://github.com/Trias1/Fotocopy-website",
-  },
-  {
-    title: "Wedding Website",
-    imageSrc: IMG3,
-    githubLink: "https://github.com/Trias1/wed-finnaly",
-    liveDemoLink: "https://wed-finnaly.vercel.app/",
   },
   {
     title: "Backend Coffe shop ",
