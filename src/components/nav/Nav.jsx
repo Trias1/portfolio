@@ -26,9 +26,9 @@ const Nav = () => {
           <BiUser />
         </a>
         <a
-          href="#experience"
-          onClick={() => setActiveNav("#experience")}
-          className={activeNav === "#experience" ? "active" : ""}
+          href="#jobexperience"
+          onClick={() => setActiveNav("#jobexperience")}
+          className={activeNav === "#jobexperience" ? "active" : ""}
         >
           <FiBook />
         </a>

@@ -21,9 +21,9 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
+    --container-width-lg: 70%;
+    --container-width-md: 75%;
+    --container-width-sm: 85%;
 }
 
 html {
@@ -39,7 +39,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* ===== general styles ===== */

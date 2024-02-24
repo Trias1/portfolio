@@ -1,11 +1,11 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 35% 55%;
     gap: 15%;
 }
 
 .about__me {
-    width: 90%;
+    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     /* background: linear-gradient(
@@ -19,10 +19,11 @@
 }
 
 .about__me-image {
-    border-radius: 2rem;
+    border-radius: 1rem;
     overflow: hidden;
-    width: 90%;
+    width: 80%;
     transition: var(--transition);
+    margin-top: 5rem;
 }
 
 /* .about__me-image:hover {
@@ -68,6 +69,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
 }
 
 /* ======= media queries (Medium Devices) ==== */

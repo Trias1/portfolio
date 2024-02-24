@@ -19,6 +19,14 @@ const Services = () => {
               <BiCheck className='service__list-icon'/>
               <p>Creating M-Learning Applications</p>
             </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Creating a Data List Mahasiswa</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Creating a Backend flutter login keycloak</p>
+            </li>
           </ul>
         </article>
         {/* END OF ANDROID */}
@@ -54,15 +62,34 @@ const Services = () => {
               <BiCheck className='service__list-icon'/>
               <p>Creating a Backend Website-based Coffe Shop</p>
             </li>
-            {/* <li>
+            <li>
               <BiCheck className='service__list-icon'/>
-              <p>Creating a Website-based Goods Workshop POS Application</p>
+              <p>Creating a Backend Website-based Fotocopy</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Creating a Website-based Wedding Application</p>
-            </li> */}
-            
+              <p>Creating a Backend Website laravel login keycloak</p>
+            </li>            
+          </ul>
+        </article>
+        <article className="service">
+          <div className="service__head">
+            <h3>Backend In linux</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Creating a script alerting check Compute Host </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Creating a script alerting check Volume service </p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Creating a script alerting check Host count </p>
+            </li>
           </ul>
         </article>
         {/* END OF Website */}

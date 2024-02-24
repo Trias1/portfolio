@@ -1,0 +1,158 @@
+
+
+.experiencee__container {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.experiencee__container > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experiencee__container >div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience__container > div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.experience__details {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience__details-icon {
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.job_list {
+    padding: 1rem;
+}
+
+.job_list li {
+    display: flex;
+    gap: 0.5rem;
+    text-align:left;
+}
+
+.job_list-icons {
+    color: var(--color-primary);
+    font-size: 1.5rem; /* Atur ukuran sesuai kebutuhan */
+}
+
+.job_list p {
+    font-size: 0.9rem;
+}
+
+.timeline-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc; /* Sesuaikan warna sesuai kebutuhan */
+    margin: 20px 0; /* Sesuaikan margin sesuai kebutuhan */
+  }
+
+.timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+
+  .timeline .event h3 {
+    margin-top: -20px;
+  }
+  
+  .event {
+    position: relative;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .event h3 {
+    margin-top: 0;
+    font-weight: bold; /* Make the text bold */
+  }
+
+  .event p {
+    margin-top: 0;
+    font-weight:normal; /* Make the text bold */
+  }
+
+  .event::before {
+    /* content: attr(data-year); */
+    position: absolute;
+    top: 50%;
+    left: -70px; /* Adjust the left position based on your needs */
+    transform: translateY(-50%);
+    background-color: #4285f4;
+    color: white;
+    font-size: 1.5rem; /* Atur ukuran sesuai kebutuhan */
+    padding: 0.5rem; /* Atur padding sesuai kebutuhan */
+    border-radius: 5px;
+}
+  
+  .event::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: #4285f4;
+    top: 0;
+    bottom: 0;
+    left: -2px;
+    margin: auto;
+  }
+
+/* ======= media queries (Medium Devices) ==== */
+@media screen and (max-width: 1024px) {    
+    .experience__name-ha {
+        margin-top: 10%;
+    }
+
+    .experience__container {
+        grid-template-columns: 1fr;
+        
+    }
+
+    .experience__container > div {
+        width: 80%;
+        padding: 1rem;
+        margin: 0 auto;
+    }
+    .job_list p {
+        font-size: 0.7rem;
+    }
+}
+
+/* ======= media queries (Small Devices) ==== */
+
+@media screen and (max-width: 600px) {
+    .experience__name-ha {
+        margin-top: 20%;
+    }
+
+    .experience__container {
+        gap: 1rem;        
+    }
+
+    .experience__container > div {
+        width: 90%;
+        padding: 1rem;
+    }
+}
