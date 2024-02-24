@@ -13,11 +13,6 @@ const Header = () => {
         <h5 className="text-light">Mobile Developer</h5>
         <CTA/>
         <HeaderSocials/>
-
-        {/* <div className='me'>
-            <img src={mee} alt="mee" />
-        </div> */}
-
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
     </header>
