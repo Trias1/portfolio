@@ -43,7 +43,7 @@ const About = () => {
             mahir dalam infrastruktur Cloud (RHOSP) dan administrasi Linux
             menggunakan Red Hat Enterprise Linux (RHEL) dan Ubuntu server.
           </p>
-          <CTA />
+          {/* <CTA /> */}
         </div>
       </div>
     </section>

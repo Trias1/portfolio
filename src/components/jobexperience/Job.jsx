@@ -2,15 +2,6 @@ import React from "react";
 import "./job_experience.css";
 import { RxBorderSolid } from "react-icons/rx";
 
-// const jobname = [
-//   {
-//     names: "Pt Inovasi Informatika Indonesia, South Jakarta (Hybrid) | Fulltime",
-//   },
-//   {
-//     names: "PSM",
-//   },
-// ];
-
 const timelineData = [
   {
     title:
