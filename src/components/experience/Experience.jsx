@@ -17,6 +17,8 @@ const experienceData = [
     skills: [
       { name: "JAVA", level: "Beginner" },
       { name: "PHP", level: "Beginner" },
+      { name: "Bash", level: "Basic" },
+      { name: "Dart", level: "Basic" },
     ],
   },
   {
@@ -26,18 +28,34 @@ const experienceData = [
       { name: "SpringBoot", level: "Beginner" },
       { name: "Laravel", level: "Basic" },
       { name: "React", level: "Basic" },
+      { name: "Dart", level: "Basic" },
     ],
   },
   {
-    category: "Databases Sql",
+    category: "Databases Sql & non Sql",
     skills: [
       { name: "MySql", level: "Beginner" },
       { name: "PostgreSql", level: "basic" },
+      { name: "Firebase", level: "Beginner" },
     ],
   },
   {
-    category: "Databases non Sql",
-    skills: [{ name: "Firebase", level: "Beginner" }],
+    category: "Middleware Tools",
+    skills: [
+      { name: "WSO2 API Manager", level: "Basic" },
+      { name: "Redhat Fuse", level: "Basic" },
+      { name: "Redhat Jboss", level: "Basic" },
+      { name: "Keycloack Single sign on", level: "Beginner" },
+    ],
+  },
+  {
+    category: "Cloud",
+    skills: [
+      { name: "Redhat Enterprose Linux (RHEL)", level: "Basic" },
+      { name: "Ubuntu Server", level: "Basic" },
+      { name: "Redhat Openstack Platform", level: "Basic" },
+      { name: "Docker", level: "Basic" },
+    ],
   },
 ];
 
