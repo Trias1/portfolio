@@ -19,7 +19,8 @@ const timelineData = [
       "Troubleshoot and support L1 ticketing",
       "PM CM every month for all cluster",
     ],
-    skill: "Linux, Cloud Services, IT Consulting Cloud Consulting, Red Hat Enterprise Linux (RHEL)",
+    skill:
+      "Linux, Cloud Services, IT Consulting Cloud Consulting, Red Hat Enterprise Linux (RHEL)",
   },
   {
     title: "Middleware Consultant",
@@ -39,22 +40,28 @@ const timelineData = [
       "Adjustment of the code in the application regarding changes to the login flow using Keycloak (Supporting)",
       "Testing SSO features on apps in a development environment",
     ],
-    skill: "Linux Server, Middleware, Keycloak, MySQL, Java, Dart, Flutter, Php, Laravel",
+    skill:
+      "Linux Server, Middleware, Keycloak, MySQL, Java, Dart, Flutter, Php, Laravel",
   },
-
+  {
+    title: "Freelance",
+    description:
+      "Buat kode VBA untuk form Excel dengan ketentuan sebagai berikut:",
+    responsibilities: [
+      "Jika formulir belum diisi sesuai aturan yang berlaku atau sudah habis masa berlakunya, maka akan muncul pemberitahuan tidak dapat dicetak",
+    ],
+    skill: "Excel, Vba",
+  },
   {
     title: "Pt Prosigmaka Mandiri, Jakarta (Online) | Bootcamp",
     date: "June 2022 - september 2022",
-    skill: "Fullstack",
-  },
-  {
     title: "Technical Consultant Program as contract employee",
     responsibilities: [
       "Learning about frontend using React.js, css, html for developing application",
       "Learning about Java Fundamental and use java springboot for develop backend application",
       "Learning Basic linux and Docker",
     ],
-    skill: "Reactjs, Java ,Javascript, Linux server, Docker",
+    skill: "Reactjs, Java ,Javascript, Linux server, Docker, Fullstack",
   },
 ];
 export default function Job() {
@@ -79,7 +86,7 @@ export default function Job() {
                 </ul>
               )}
               <h5>Skill: {event.skill}</h5>
-              {index !== timelineData.length - 2 && (
+              {index !== timelineData.length - 1 && (
                 <div className="timeline-divider"></div>
               )}
             </div>
