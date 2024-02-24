@@ -6,15 +6,15 @@ header {
 .header__container {
     text-align: center;
     height: 100%;
-    position: relative;
+    position:relative;
 }
 
 /* ===== cta ===== */
 
 .cta {
     margin-top: 2.5rem;
-    display:contents;
-    gap: 1.2rem;
+    display: flex;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -38,7 +38,7 @@ header {
 
 /* ===== ME ===== */
 .me {
-    background: var(--color-white); 
+    background: var(--color-white);
     width: 30%;
     /* height: 28rem; */
     position: absolute;
@@ -60,13 +60,13 @@ header {
 }
 
 /* ======= media queries (Medium Devices) ==== */
- 
+
 @media screen and (max-width: 1024px) {
     /* header {
         height: 68vh;
     } */
 
-    .me{
+    .me {
         width: 20%;
     }
 }
@@ -83,7 +83,7 @@ header {
     }
 
     .me {
-        background: var(--color-white); 
+        background: var(--color-white);
         width: 19.5rem;
         height: 20rem;
         position: absolute;
@@ -105,7 +105,7 @@ header {
     }
 
     .me {
-        background: var(--color-white); 
+        background: var(--color-white);
         width: 19.5rem;
         height: 20rem;
         position: absolute;
@@ -126,7 +126,7 @@ header {
     }
 
     .me {
-        background: var(--color-white); 
+        background: var(--color-white);
         width: 20rem;
         height: 20rem;
         position: absolute;

@@ -12,6 +12,40 @@ function Success(){
   alert("page moved successfully")
 }
 
+const portfolioData = [
+  {
+    title: "Mobile Programming",
+    imageSrc: IMG2,
+    githubLink: "https://github.com/Trias1/android",
+  },
+  {
+    title: "POS WebSite FotoCopy",
+    imageSrc: IMG1,
+    githubLink: "https://github.com/Trias1/Fotocopy-website",
+  },
+  {
+    title: "Wedding Website",
+    imageSrc: IMG3,
+    githubLink: "https://github.com/Trias1/wed-finnaly",
+    liveDemoLink: "https://wed-finnaly.vercel.app/",
+  },
+  {
+    title: "Backend Coffe shop ",
+    imageSrc: IMG2,
+    githubLink: "https://github.com/Trias1/cofps",
+  },
+  {
+    title: "Data list kampus ",
+    imageSrc: IMG2,
+    githubLink: "https://github.com/Trias1/Kampus",
+  },
+  {
+    title: "Project Keycloak",
+    imageSrc: IMG2,
+    githubLink: "https://github.com/Trias1/keycloaks",
+  }, 
+];
+
 const Portfolio = () => {
   return (
     <section id="portfolio">
@@ -19,99 +53,35 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
+      {portfolioData.map((item, index) => (
+        <article className="portfolio__item" key={index}>
           <div className="portfolio__item-image">
-            <img src={IMG2} alt={"_target_blank"} />
+            <img src={item.imageSrc} alt={"_target_blank"} />
           </div>
-          <h3>Mobile Programming</h3>
+          <h3>{item.title}</h3>
           <div className="portfolio__item-cta">
             <a
-              href={"https://github.com/Trias1/android"}
+              href={item.githubLink}
               className="btn"
               target="_blank"
-              onClick={event=>Success()}
+              onClick={(event) => Success()}
             >
               Github
             </a>
-            <a
-              href={"https://drive.google.com/file/d/1vthSYl9_o2WGuyUsyNLs3NtYsqxZd-Ge/view"}
-              className="btn btn-primary"
-              target="_blank"
-              onClick={event=>Success()}
-            >
-              Live Demo
-            </a>
+            {item.liveDemoLink && (
+              <a
+                href={item.liveDemoLink}
+                className="btn btn-primary"
+                target="_blank"
+                onClick={(event) => Success()}
+              >
+                Live Demo
+              </a>
+            )}
           </div>
         </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt={"_target_blank"} />
-          </div>
-          <h3>POS WebSite FotoCopy</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href={"https://github.com/Trias1/Fotocopy-website"}
-              className="btn"
-              target="_blank"
-              onClick={event=>Success()}
-            >
-              Github
-            </a>
-            <a
-              className="btn btn-primary"
-              target="_blank"
-              onClick={event=>Gagal()}
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt={"_target_blank"} />
-          </div>
-          <h3>Wedding Website</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href={"https://github.com/Trias1/wed-finnaly"}
-              className="btn"
-              target="_blank"
-              onClick={event=>Success()}
-            >
-              Github
-            </a>
-            <a
-              href={"https://wed-finnaly.vercel.app/"}
-              className="btn btn-primary"
-              target="_blank"
-              onClick={event=>Success()}
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-      </div>
-
-      {/* <div className="container portfolio__container">
-        {
-          data.map(({id, image, title, github, demo}) => {
-            return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />  
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank' >Live Demo</a>
-              </div>
-            </article>
-            )
-          })
-        }
-    </div> */}
+      ))}
+    </div>
     </section>
   );
 };

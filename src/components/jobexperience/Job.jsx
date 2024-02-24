@@ -16,6 +16,7 @@ const timelineData = [
     title:
       "Pt Inovasi Informatika Indonesia, South Jakarta (Hybrid) | Fulltime",
     date: "october 2022 - Presents",
+    skill: "Middleware Consultant, Cloud Consultant",
   },
   {
     title: "Cloud Consultant",
@@ -27,6 +28,7 @@ const timelineData = [
       "Troubleshoot and support L1 ticketing",
       "PM CM every month for all cluster",
     ],
+    skill: "Linux, Cloud Services, IT Consulting Cloud Consulting, Red Hat Enterprise Linux (RHEL)",
   },
   {
     title: "Middleware Consultant",
@@ -46,11 +48,13 @@ const timelineData = [
       "Adjustment of the code in the application regarding changes to the login flow using Keycloak (Supporting)",
       "Testing SSO features on apps in a development environment",
     ],
+    skill: "Linux Server, Middleware, Keycloak, MySQL, Java, Dart, Flutter, Php, Laravel",
   },
 
   {
     title: "Pt Prosigmaka Mandiri, Jakarta (Online) | Bootcamp",
     date: "June 2022 - september 2022",
+    skill: "Fullstack",
   },
   {
     title: "Technical Consultant Program as contract employee",
@@ -59,6 +63,7 @@ const timelineData = [
       "Learning about Java Fundamental and use java springboot for develop backend application",
       "Learning Basic linux and Docker",
     ],
+    skill: "Reactjs, Java ,Javascript, Linux server, Docker",
   },
 ];
 export default function Job() {
@@ -82,6 +87,7 @@ export default function Job() {
                   ))}
                 </ul>
               )}
+              <h5>Skill: {event.skill}</h5>
               {index !== timelineData.length - 2 && (
                 <div className="timeline-divider"></div>
               )}
