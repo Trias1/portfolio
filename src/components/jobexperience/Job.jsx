@@ -43,15 +43,15 @@ const timelineData = [
     skill:
       "Linux Server, Middleware, Keycloak, MySQL, Java, Dart, Flutter, Php, Laravel",
   },
-  {
-    title: "Freelance",
-    description:
-      "Buat kode VBA untuk form Excel dengan ketentuan sebagai berikut:",
-    responsibilities: [
-      "Jika formulir belum diisi sesuai aturan yang berlaku atau sudah habis masa berlakunya, maka akan muncul pemberitahuan tidak dapat dicetak",
-    ],
-    skill: "Excel, Vba",
-  },
+  // {
+  //   title: "Freelance",
+  //   description:
+  //     "Buat kode VBA untuk form Excel dengan ketentuan sebagai berikut:",
+  //   responsibilities: [
+  //     "Jika formulir belum diisi sesuai aturan yang berlaku atau sudah habis masa berlakunya, maka akan muncul pemberitahuan tidak dapat dicetak",
+  //   ],
+  //   skill: "Excel, Vba",
+  // },
   {
     title: "Pt Prosigmaka Mandiri, Jakarta (Online) | Bootcamp",
     date: "June 2022 - september 2022",
