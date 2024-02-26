@@ -54,7 +54,7 @@ const timelineData = [
   // },
   {
     title: "Pt Prosigmaka Mandiri, Jakarta (Online) | Bootcamp",
-    date: "June 2022 - september 2022",
+    date: "July 2022 - september 2022",
     description: "Technical Consultant Program as contract employee",
     responsibilities: [
       "Learning about frontend using React.js, css, html for developing application",
