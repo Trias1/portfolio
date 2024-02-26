@@ -1,6 +1,6 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 55%;
+    grid-template-columns: 25% 55%;
     gap: 10%;
 }
 
@@ -23,7 +23,6 @@
     overflow: hidden;
     width: 80%;
     transition: var(--transition);
-    margin-top: 5rem;
 }
 
 /* .about__me-image:hover {
