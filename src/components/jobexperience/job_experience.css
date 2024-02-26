@@ -122,7 +122,7 @@
 /* ======= media queries (Medium Devices) ==== */
 @media screen and (max-width: 1024px) {    
     .experience__name-ha {
-        margin-top: 10%;
+        margin-top: 1ch;
     }
 
     .experience__container {
@@ -143,9 +143,9 @@
 /* ======= media queries (Small Devices) ==== */
 
 @media screen and (max-width: 600px) {
-    .experience__name-ha {
-        margin-top: 20%;
-    }
+    /* .experience__name-ha {
+        margin-top: 10%;
+    } */
 
     .experience__container {
         gap: 1rem;        

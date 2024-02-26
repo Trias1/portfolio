@@ -1,6 +1,6 @@
 .about__container {
     display: grid;
-    grid-template-columns: 25% 55%;
+    grid-template-columns: 35% 55%;
     gap: 10%;
 }
 
@@ -92,6 +92,7 @@
 @media screen and (max-width: 600px) {
     .about__me {
         width: var(--container-width-sm);
+        margin-top: 1px;
     }
 
     .about__cards {
