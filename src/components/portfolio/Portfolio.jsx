@@ -1,8 +1,8 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/android.jpg";
-import IMG2 from "../../assets/website.png";
-import IMG3 from "../../assets/wedding.png";
+import IMG1 from "../../assets/image/android.jpg";
+import IMG2 from "../../assets/image/website.png";
+import IMG3 from "../../assets/image/wedding.png";
 
 function Gagal() {
   alert("Sorry, the page you are looking for does not exist");

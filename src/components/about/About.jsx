@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/fotos.jpg";
+import ME from "../../assets/image/fotos.jpg";
 import { VscFolderLibrary } from "react-icons/vsc";
 import CTA from "../header/CTA";
 import { useState } from "react";
