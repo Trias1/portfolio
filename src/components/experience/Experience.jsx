@@ -28,7 +28,7 @@ const experienceData = [
       { name: "SpringBoot", level: "Beginner" },
       { name: "Laravel", level: "Basic" },
       { name: "React", level: "Basic" },
-      { name: "Dart", level: "Basic" },
+      { name: "Flutter", level: "Basic" },
     ],
   },
   {
